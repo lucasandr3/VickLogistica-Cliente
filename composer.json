@@ -1,0 +1,17 @@
+{
+	"require:":{
+
+	},
+	"autoload":{
+		"psr-4":{
+			"Controllers\\":"Controllers/",
+			"Models\\":"Models/",
+			"Core\\":"Core/"
+		}
+	},
+	"require": {
+		"mpdf/mpdf": "^8.0",
+		"dompdf/dompdf": "^1.0",
+		"coffeecode/paginator": "^1.0"
+	}
+}
